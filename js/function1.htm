@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>function</title>
+    <style>
+        body {
+            padding-top: 30px;
+            text-align: center;
+        }
+        .accent {
+            font-weight: bold;
+            font-size: 1,2em;
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>시작해보자!</h1>
+    <p>즉시 실행 함수</p>
+    <script>
+        
+        (function() {
+            var userName = prompt("이름을 입력하세요!!");
+            document.write("안녕하세요? <span class='accent'>" + userName + "</span>님!");
+        }())
+        </script>
+</body>
+</html>
